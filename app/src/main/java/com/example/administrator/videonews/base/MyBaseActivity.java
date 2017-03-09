@@ -105,11 +105,10 @@ public class MyBaseActivity extends Activity {
 
     /**
      *
-     * @param context 当前的context对象
      * @param str 需要吐司的字符串
      */
-    protected void showToast(Context context,String str){
-        Toast.makeText(context, str+"", Toast.LENGTH_SHORT).show();
+    protected void showToast(String str){
+        Toast.makeText(this, str+"", Toast.LENGTH_SHORT).show();
     }
 
     @Override
