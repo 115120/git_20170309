@@ -1,4 +1,4 @@
-package com.example.administrator.videonews.base;
+package com.example.administrator.videonews.ui.base;
 
 import android.content.Context;
 import android.view.LayoutInflater;
