@@ -41,4 +41,7 @@
     <string name="NO">取消</string>
 
     <string name="please_edit_comment">请编辑评论</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

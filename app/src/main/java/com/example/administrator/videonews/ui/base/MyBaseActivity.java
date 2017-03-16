@@ -1,8 +1,8 @@
 package com.example.administrator.videonews.ui.base;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.widget.Toast;
 
@@ -13,7 +13,7 @@ import java.util.Iterator;
  * Created by Steven on 2017/2/16.
  */
 
-public class MyBaseActivity extends Activity {
+public class MyBaseActivity extends AppCompatActivity {
 
     /** 用来保存所在存在的 Activity */
     private static ArrayList<MyBaseActivity> onlineActivityList = new ArrayList<MyBaseActivity>();
